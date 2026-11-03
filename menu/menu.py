@@ -1,7 +1,7 @@
 import os
 import sys
 
-# Permite importar las clases desde la carpeta "clases"
+# esto permite importar las clases desde la carpeta "clases"
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
 from clases.ejercicio1_compra import CompraTienda
